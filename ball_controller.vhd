@@ -42,7 +42,7 @@ architecture behavioral of ball_controller is
     constant BALL_SIZE   : integer := 10;
     constant BALL_S_FIX  : signed(17 downto 0) := to_signed(10 * 64, 18);
     constant PADDLE_W    : integer := 10;
-    constant PADDLE_H    : integer := 50;
+    constant PADDLE_H    : integer := 60;
     constant P1_X_POS    : integer := 50;  -- X position Paddle 1
     constant P2_X_POS    : integer := 590; -- X position Paddle 2
 

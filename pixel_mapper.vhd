@@ -15,8 +15,8 @@ entity pixel_mapper is
         BALL_SIZE     : integer := 10;   -- size of the ball (requested default = 10)
         PADDLE_WIDTH  : integer := 10;   -- paddle width in pixels (tweakable)
         PADDLE_HEIGHT : integer := 60;   -- paddle height in pixels (tweakable)
-        LEFT_PADDLE_X : integer := 10;   -- X position of left paddle
-        RIGHT_PADDLE_X: integer := 620   -- X position of right paddle (default near right edge)
+        LEFT_PADDLE_X : integer := 50;   -- X position of left paddle
+        RIGHT_PADDLE_X: integer := 590   -- X position of right paddle (default near right edge)
     );
 
     port (
