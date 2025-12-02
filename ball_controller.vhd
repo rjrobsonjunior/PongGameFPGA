@@ -96,14 +96,14 @@ begin
                 p2_bot := p2_y_in + PADDLE_H;
 
                 -- COLISION TOP (Y=0)
-                if (b_top <= 0) then
-                    pos_y <= (others => '0');
+                if (b_top <= 0) and (vel_y < 0) then
+                    -- pos_y <= (others => '0');
                     vel_y <= abs(vel_y);
                 end if;
 
                 -- COLISION BOTTOM (Y=480)
-                if (b_bot >= 480) then
-                    pos_y <= SCREEN_H_FIXED - BALL_S_FIX; -- Corrige posição
+                if (b_bot >= 480) and (vel_y > 0) then
+                    -- pos_y <= SCREEN_H_FIXED - BALL_S_FIX; -- Corrige posição
                     
                     if elasticity_sel = '1' then
                         vel_y <= - (vel_y - (vel_y / 4)); -- vel = 75% vel  
