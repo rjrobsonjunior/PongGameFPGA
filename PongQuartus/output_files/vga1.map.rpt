@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga1
-Tue Dec 02 17:47:43 2025
+Tue Dec 02 19:44:38 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -22,10 +22,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  14. Parameter Settings for User Entity Instance: pll_25MHz:inst1|altpll:altpll_component
  15. Parameter Settings for User Entity Instance: pixel_mapper:inst7
  16. Parameter Settings for User Entity Instance: div_gen:inst9
- 17. altpll Parameter Settings by Entity Instance
- 18. Post-Synthesis Netlist Statistics for Top Partition
- 19. Elapsed Time Per Partition
- 20. Analysis & Synthesis Messages
+ 17. Parameter Settings for User Entity Instance: paddle_controller:inst5
+ 18. altpll Parameter Settings by Entity Instance
+ 19. Post-Synthesis Netlist Statistics for Top Partition
+ 20. Elapsed Time Per Partition
+ 21. Analysis & Synthesis Messages
 
 
 
@@ -51,16 +52,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 02 17:47:43 2025       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 02 19:44:38 2025       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga1                                        ;
 ; Top-level Entity Name              ; vga1                                        ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 631                                         ;
-;     Total combinational functions  ; 630                                         ;
-;     Dedicated logic registers      ; 122                                         ;
-; Total registers                    ; 122                                         ;
-; Total pins                         ; 35                                          ;
+; Total logic elements               ; 826                                         ;
+;     Total combinational functions  ; 825                                         ;
+;     Dedicated logic registers      ; 160                                         ;
+; Total registers                    ; 160                                         ;
+; Total pins                         ; 39                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -179,22 +180,21 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                             ; Library ;
 +----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
-; VGA_drvr.vhd                     ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/VGA_drvr.vhd               ;         ;
-; pll_25MHz.vhd                    ; yes             ; User Wizard-Generated File         ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd              ;         ;
-; vga1.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/vga1.bdf                   ;         ;
-; pixel_mapper.vhd                 ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pixel_mapper.vhd           ;         ;
-; ball_controller.vhd              ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/ball_controller.vhd        ;         ;
-; output_files/div_gen.vhd         ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/div_gen.vhd   ;         ;
-; score_display.vhd                ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/score_display.vhd          ;         ;
-; Const0.v                         ; yes             ; User Wizard-Generated File         ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const0.v                   ;         ;
-; Const420.vhd                     ; yes             ; User Wizard-Generated File         ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd               ;         ;
+; VGA_drvr.vhd                     ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/VGA_drvr.vhd             ;         ;
+; pll_25MHz.vhd                    ; yes             ; User Wizard-Generated File         ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd            ;         ;
+; vga1.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/vga1.bdf                 ;         ;
+; pixel_mapper.vhd                 ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pixel_mapper.vhd         ;         ;
+; ball_controller.vhd              ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd      ;         ;
+; output_files/div_gen.vhd         ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/div_gen.vhd ;         ;
+; score_display.vhd                ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/score_display.vhd        ;         ;
+; paddle_controller.vhd            ; yes             ; User VHDL File                     ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/paddle_controller.vhd    ;         ;
 ; altpll.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf        ;         ;
 ; aglobal181.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc    ;         ;
 ; stratix_pll.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
 ; cycloneii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
-; db/pll_25mhz_altpll.v            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/db/pll_25mhz_altpll.v      ;         ;
-; borda.vhd                        ; yes             ; Auto-Found VHDL File               ; C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/borda.vhd                  ;         ;
+; db/pll_25mhz_altpll.v            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/db/pll_25mhz_altpll.v    ;         ;
+; borda.vhd                        ; yes             ; Auto-Found VHDL File               ; C:/Users/Robson Junior/PongGameFPGA/PongQuartus/borda.vhd                ;         ;
 +----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
 
 
@@ -203,23 +203,23 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 631         ;
+; Estimated Total logic elements              ; 826         ;
 ;                                             ;             ;
-; Total combinational functions               ; 630         ;
+; Total combinational functions               ; 825         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 153         ;
-;     -- 3 input functions                    ; 215         ;
-;     -- <=2 input functions                  ; 262         ;
+;     -- 4 input functions                    ; 191         ;
+;     -- 3 input functions                    ; 302         ;
+;     -- <=2 input functions                  ; 332         ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 287         ;
-;     -- arithmetic mode                      ; 343         ;
+;     -- normal mode                          ; 362         ;
+;     -- arithmetic mode                      ; 463         ;
 ;                                             ;             ;
-; Total registers                             ; 122         ;
-;     -- Dedicated logic registers            ; 122         ;
+; Total registers                             ; 160         ;
+;     -- Dedicated logic registers            ; 160         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 35          ;
+; I/O pins                                    ; 39          ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
@@ -227,27 +227,28 @@ refer to the applicable agreement for further details.
 ;     -- PLLs                                 ; 1           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; SW[0]~input ;
-; Maximum fan-out                             ; 122         ;
-; Total fan-out                               ; 2354        ;
-; Average fan-out                             ; 2.86        ;
+; Maximum fan-out                             ; 162         ;
+; Total fan-out                               ; 3005        ;
+; Average fan-out                             ; 2.82        ;
 +---------------------------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                               ;
-+--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
-; Compilation Hierarchy Node                 ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                           ; Entity Name      ; Library Name ;
-+--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
-; |vga1                                      ; 630 (1)             ; 122 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 35   ; 0            ; 0          ; |vga1                                                                         ; vga1             ; work         ;
-;    |VGA_drvr:inst|                         ; 84 (84)             ; 21 (21)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|VGA_drvr:inst                                                           ; VGA_drvr         ; work         ;
-;    |ball_controller:inst6|                 ; 427 (427)           ; 81 (81)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|ball_controller:inst6                                                   ; ball_controller  ; work         ;
-;    |div_gen:inst9|                         ; 26 (26)             ; 20 (20)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|div_gen:inst9                                                           ; div_gen          ; work         ;
-;    |pixel_mapper:inst7|                    ; 80 (80)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pixel_mapper:inst7                                                      ; pixel_mapper     ; work         ;
-;    |pll_25MHz:inst1|                       ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1                                                         ; pll_25MHz        ; work         ;
-;       |altpll:altpll_component|            ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component                                 ; altpll           ; work         ;
-;          |pll_25MHz_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated ; pll_25MHz_altpll ; work         ;
-;    |score_display:inst13|                  ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|score_display:inst13                                                    ; score_display    ; work         ;
-+--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                ;
++--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node                 ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                           ; Entity Name       ; Library Name ;
++--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
+; |vga1                                      ; 825 (1)             ; 160 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 39   ; 0            ; 0          ; |vga1                                                                         ; vga1              ; work         ;
+;    |VGA_drvr:inst|                         ; 77 (77)             ; 21 (21)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|VGA_drvr:inst                                                           ; VGA_drvr          ; work         ;
+;    |ball_controller:inst6|                 ; 472 (472)           ; 81 (81)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|ball_controller:inst6                                                   ; ball_controller   ; work         ;
+;    |div_gen:inst9|                         ; 26 (26)             ; 20 (20)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|div_gen:inst9                                                           ; div_gen           ; work         ;
+;    |paddle_controller:inst5|               ; 108 (108)           ; 38 (38)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|paddle_controller:inst5                                                 ; paddle_controller ; work         ;
+;    |pixel_mapper:inst7|                    ; 129 (129)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pixel_mapper:inst7                                                      ; pixel_mapper      ; work         ;
+;    |pll_25MHz:inst1|                       ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1                                                         ; pll_25MHz         ; work         ;
+;       |altpll:altpll_component|            ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component                                 ; altpll            ; work         ;
+;          |pll_25MHz_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated ; pll_25MHz_altpll  ; work         ;
+;    |score_display:inst13|                  ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vga1|score_display:inst13                                                    ; score_display     ; work         ;
++--------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -257,21 +258,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance       ; IP Include File ;
 +--------+--------------+---------+--------------+--------------+-----------------------+-----------------+
 ; Altera ; ALTPLL       ; 18.1    ; N/A          ; N/A          ; |vga1|pll_25MHz:inst1 ; pll_25MHz.vhd   ;
-; Altera ; LPM_CONSTANT ; 18.1    ; N/A          ; N/A          ; |vga1|Const420:inst3  ; Const420.vhd    ;
-; Altera ; LPM_CONSTANT ; 18.1    ; N/A          ; N/A          ; |vga1|Const0:inst5    ; Const0.v        ;
 +--------+--------------+---------+--------------+--------------+-----------------------+-----------------+
 
 
-+---------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                        ;
-+----------------------------------------+----------------------------------+
-; Register name                          ; Reason for Removal               ;
-+----------------------------------------+----------------------------------+
-; VGA_drvr:inst|red[0..2]                ; Merged with VGA_drvr:inst|red[3] ;
-; VGA_drvr:inst|green[0..3]              ; Merged with VGA_drvr:inst|red[3] ;
-; VGA_drvr:inst|blue[0..3]               ; Merged with VGA_drvr:inst|red[3] ;
-; Total Number of Removed Registers = 11 ;                                  ;
-+----------------------------------------+----------------------------------+
++----------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                         ;
++----------------------------------------+-----------------------------------+
+; Register name                          ; Reason for Removal                ;
++----------------------------------------+-----------------------------------+
+; VGA_drvr:inst|blue[1..3]               ; Merged with VGA_drvr:inst|blue[0] ;
+; VGA_drvr:inst|green[0..3]              ; Merged with VGA_drvr:inst|blue[0] ;
+; VGA_drvr:inst|red[0..3]                ; Merged with VGA_drvr:inst|blue[0] ;
+; Total Number of Removed Registers = 11 ;                                   ;
++----------------------------------------+-----------------------------------+
 
 
 +------------------------------------------------------+
@@ -279,63 +278,95 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 122   ;
-; Number of registers using Synchronous Clear  ; 10    ;
+; Total registers                              ; 160   ;
+; Number of registers using Synchronous Clear  ; 20    ;
 ; Number of registers using Synchronous Load   ; 37    ;
 ; Number of registers using Asynchronous Clear ; 122   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 80    ;
+; Number of registers using Clock Enable       ; 96    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------+
-; Inverted Register Statistics                      ;
-+-----------------------------------------+---------+
-; Inverted Register                       ; Fan out ;
-+-----------------------------------------+---------+
-; ball_controller:inst6|pos_x[12]         ; 4       ;
-; ball_controller:inst6|pos_x[14]         ; 5       ;
-; ball_controller:inst6|pos_y[13]         ; 5       ;
-; ball_controller:inst6|pos_y[12]         ; 5       ;
-; ball_controller:inst6|pos_y[11]         ; 5       ;
-; ball_controller:inst6|pos_y[10]         ; 4       ;
-; ball_controller:inst6|vel_x[6]          ; 3       ;
-; ball_controller:inst6|vel_x[3]          ; 3       ;
-; ball_controller:inst6|vel_x[7]          ; 3       ;
-; ball_controller:inst6|vel_y[17]         ; 28      ;
-; ball_controller:inst6|vel_y[16]         ; 7       ;
-; ball_controller:inst6|vel_y[15]         ; 7       ;
-; ball_controller:inst6|vel_y[14]         ; 7       ;
-; ball_controller:inst6|vel_y[13]         ; 7       ;
-; ball_controller:inst6|vel_y[12]         ; 7       ;
-; ball_controller:inst6|vel_y[11]         ; 7       ;
-; ball_controller:inst6|vel_y[10]         ; 7       ;
-; ball_controller:inst6|vel_y[9]          ; 7       ;
-; ball_controller:inst6|vel_y[8]          ; 7       ;
-; ball_controller:inst6|vel_y[6]          ; 7       ;
-; ball_controller:inst6|vel_y[5]          ; 7       ;
-; ball_controller:inst6|vel_y[3]          ; 6       ;
-; ball_controller:inst6|vel_y[1]          ; 5       ;
-; Total number of inverted registers = 23 ;         ;
-+-----------------------------------------+---------+
++----------------------------------------------------+
+; Inverted Register Statistics                       ;
++------------------------------------------+---------+
+; Inverted Register                        ; Fan out ;
++------------------------------------------+---------+
+; ball_controller:inst6|pos_x[12]          ; 4       ;
+; ball_controller:inst6|pos_x[14]          ; 5       ;
+; ball_controller:inst6|pos_y[13]          ; 5       ;
+; ball_controller:inst6|pos_y[12]          ; 5       ;
+; ball_controller:inst6|pos_y[11]          ; 5       ;
+; ball_controller:inst6|pos_y[10]          ; 4       ;
+; paddle_controller:inst5|right_y[7]       ; 8       ;
+; paddle_controller:inst5|right_y[6]       ; 8       ;
+; paddle_controller:inst5|right_y[4]       ; 8       ;
+; paddle_controller:inst5|right_y[2]       ; 10      ;
+; paddle_controller:inst5|right_y[1]       ; 8       ;
+; paddle_controller:inst5|right_y[0]       ; 7       ;
+; paddle_controller:inst5|left_y[7]        ; 8       ;
+; paddle_controller:inst5|left_y[6]        ; 8       ;
+; paddle_controller:inst5|left_y[4]        ; 8       ;
+; paddle_controller:inst5|left_y[2]        ; 10      ;
+; paddle_controller:inst5|left_y[1]        ; 8       ;
+; paddle_controller:inst5|left_y[0]        ; 7       ;
+; ball_controller:inst6|vel_x[6]           ; 3       ;
+; ball_controller:inst6|vel_x[3]           ; 3       ;
+; ball_controller:inst6|vel_x[7]           ; 3       ;
+; ball_controller:inst6|vel_y[17]          ; 28      ;
+; ball_controller:inst6|vel_y[16]          ; 7       ;
+; ball_controller:inst6|vel_y[15]          ; 7       ;
+; ball_controller:inst6|vel_y[14]          ; 7       ;
+; ball_controller:inst6|vel_y[13]          ; 7       ;
+; ball_controller:inst6|vel_y[12]          ; 7       ;
+; ball_controller:inst6|vel_y[11]          ; 7       ;
+; ball_controller:inst6|vel_y[10]          ; 7       ;
+; ball_controller:inst6|vel_y[9]           ; 7       ;
+; ball_controller:inst6|vel_y[8]           ; 7       ;
+; ball_controller:inst6|vel_y[6]           ; 7       ;
+; ball_controller:inst6|vel_y[5]           ; 7       ;
+; ball_controller:inst6|vel_y[3]           ; 6       ;
+; ball_controller:inst6|vel_y[1]           ; 5       ;
+; paddle_controller:inst5|right_up_sr[0]   ; 2       ;
+; paddle_controller:inst5|right_up_sr[1]   ; 3       ;
+; paddle_controller:inst5|right_up_sr[2]   ; 2       ;
+; paddle_controller:inst5|right_up_sr[3]   ; 1       ;
+; paddle_controller:inst5|right_down_sr[3] ; 1       ;
+; paddle_controller:inst5|right_down_sr[2] ; 3       ;
+; paddle_controller:inst5|right_down_sr[1] ; 2       ;
+; paddle_controller:inst5|right_down_sr[0] ; 2       ;
+; paddle_controller:inst5|left_up_sr[0]    ; 2       ;
+; paddle_controller:inst5|left_up_sr[1]    ; 3       ;
+; paddle_controller:inst5|left_up_sr[2]    ; 2       ;
+; paddle_controller:inst5|left_up_sr[3]    ; 1       ;
+; paddle_controller:inst5|left_down_sr[0]  ; 2       ;
+; paddle_controller:inst5|left_down_sr[1]  ; 3       ;
+; paddle_controller:inst5|left_down_sr[2]  ; 2       ;
+; paddle_controller:inst5|left_down_sr[3]  ; 1       ;
+; Total number of inverted registers = 51  ;         ;
++------------------------------------------+---------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
-; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |vga1|VGA_drvr:inst|v_count[9]        ;
-; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |vga1|ball_controller:inst6|pos_y[9]  ;
-; 5:1                ; 15 bits   ; 45 LEs        ; 30 LEs               ; 15 LEs                 ; Yes        ; |vga1|ball_controller:inst6|vel_x[17] ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[2]  ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[7]  ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |vga1|ball_controller:inst6|pos_y[13] ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_x[7]  ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[3]  ;
-; 8:1                ; 12 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[5]  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |vga1|VGA_drvr:inst|v_count[9]           ;
+; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |vga1|ball_controller:inst6|pos_y[7]     ;
+; 5:1                ; 15 bits   ; 45 LEs        ; 30 LEs               ; 15 LEs                 ; Yes        ; |vga1|ball_controller:inst6|vel_x[5]     ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; Yes        ; |vga1|paddle_controller:inst5|left_y[3]  ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; Yes        ; |vga1|paddle_controller:inst5|right_y[3] ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[0]     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[4]     ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |vga1|ball_controller:inst6|pos_x[14]    ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_x[3]     ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 15 LEs               ; 5 LEs                  ; Yes        ; |vga1|paddle_controller:inst5|left_y[1]  ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 15 LEs               ; 5 LEs                  ; Yes        ; |vga1|paddle_controller:inst5|right_y[1] ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[3]     ;
+; 8:1                ; 12 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |vga1|ball_controller:inst6|vel_y[10]    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 
 
 +------------------------------------------------------------+
@@ -760,6 +791,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: paddle_controller:inst5 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; screen_h       ; 480   ; Signed Integer                              ;
+; paddle_height  ; 50    ; Signed Integer                              ;
+; step           ; 2     ; Signed Integer                              ;
+; init_y         ; 215   ; Signed Integer                              ;
+; btn_active_low ; true  ; Enumerated                                  ;
+; debounce_bits  ; 4     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------------------------------------------------+
 ; altpll Parameter Settings by Entity Instance                            ;
 +-------------------------------+-----------------------------------------+
@@ -782,26 +828,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 35                          ;
-; cycloneiii_ff         ; 122                         ;
+; boundary_port         ; 39                          ;
+; cycloneiii_ff         ; 160                         ;
 ;     CLR               ; 32                          ;
 ;     CLR SCLR          ; 10                          ;
+;     ENA               ; 10                          ;
 ;     ENA CLR           ; 43                          ;
 ;     ENA CLR SLD       ; 37                          ;
-; cycloneiii_lcell_comb ; 637                         ;
-;     arith             ; 343                         ;
-;         2 data inputs ; 199                         ;
-;         3 data inputs ; 144                         ;
-;     normal            ; 294                         ;
-;         0 data inputs ; 3                           ;
-;         1 data inputs ; 24                          ;
-;         2 data inputs ; 43                          ;
-;         3 data inputs ; 71                          ;
-;         4 data inputs ; 153                         ;
+;     ENA SCLR          ; 6                           ;
+;     SCLR              ; 4                           ;
+;     plain             ; 18                          ;
+; cycloneiii_lcell_comb ; 832                         ;
+;     arith             ; 463                         ;
+;         2 data inputs ; 236                         ;
+;         3 data inputs ; 227                         ;
+;     normal            ; 369                         ;
+;         0 data inputs ; 5                           ;
+;         1 data inputs ; 28                          ;
+;         2 data inputs ; 70                          ;
+;         3 data inputs ; 75                          ;
+;         4 data inputs ; 191                         ;
 ; cycloneiii_pll        ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 14.20                       ;
-; Average LUT depth     ; 7.83                        ;
+; Max LUT depth         ; 12.20                       ;
+; Average LUT depth     ; 7.21                        ;
 +-----------------------+-----------------------------+
 
 
@@ -810,7 +860,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -820,7 +870,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec 02 17:47:30 2025
+    Info: Processing started: Tue Dec 02 19:44:11 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga1 -c vga1
 Warning (125092): Tcl Script File mult1.qip not found
     Info (125063): set_global_assignment -name QIP_FILE mult1.qip
@@ -845,13 +895,13 @@ Warning (125092): Tcl Script File const20.qip not found
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file vga_drvr.vhd
-    Info (12022): Found design unit 1: VGA_drvr-behavioral File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/VGA_drvr.vhd Line: 98
-    Info (12023): Found entity 1: VGA_drvr File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/VGA_drvr.vhd Line: 52
+    Info (12022): Found design unit 1: VGA_drvr-behavioral File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/VGA_drvr.vhd Line: 98
+    Info (12023): Found entity 1: VGA_drvr File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/VGA_drvr.vhd Line: 52
 Warning (12019): Can't analyze file -- file vga_640x480_test_de10.vhd is missing
 Warning (12019): Can't analyze file -- file vga_1280x1024_test_de10.vhd is missing
 Info (12021): Found 2 design units, including 1 entities, in source file pll_25mhz.vhd
-    Info (12022): Found design unit 1: pll_25mhz-SYN File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd Line: 53
-    Info (12023): Found entity 1: pll_25MHz File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd Line: 42
+    Info (12022): Found design unit 1: pll_25mhz-SYN File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd Line: 53
+    Info (12023): Found entity 1: pll_25MHz File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd Line: 42
 Warning (12019): Can't analyze file -- file output_files/vga1.bdf is missing
 Warning (12019): Can't analyze file -- file Enderecamento.vhd is missing
 Warning (12019): Can't analyze file -- file output_files/Block2.bdf is missing
@@ -862,43 +912,52 @@ Warning (12019): Can't analyze file -- file output_files/onda1.vhd is missing
 Info (12021): Found 1 design units, including 1 entities, in source file vga1.bdf
     Info (12023): Found entity 1: vga1
 Info (12021): Found 2 design units, including 1 entities, in source file output_files/quadrado_ctrl.vhd
-    Info (12022): Found design unit 1: quadrado_ctrl-rtl File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/quadrado_ctrl.vhd Line: 14
-    Info (12023): Found entity 1: quadrado_ctrl File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/quadrado_ctrl.vhd Line: 5
+    Info (12022): Found design unit 1: quadrado_ctrl-rtl File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/quadrado_ctrl.vhd Line: 14
+    Info (12023): Found entity 1: quadrado_ctrl File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/quadrado_ctrl.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file pixel_mapper.vhd
-    Info (12022): Found design unit 1: pixel_mapper-rtl File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pixel_mapper.vhd Line: 33
-    Info (12023): Found entity 1: pixel_mapper File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pixel_mapper.vhd Line: 11
+    Info (12022): Found design unit 1: pixel_mapper-rtl File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pixel_mapper.vhd Line: 33
+    Info (12023): Found entity 1: pixel_mapper File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pixel_mapper.vhd Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file ball_controller.vhd
-    Info (12022): Found design unit 1: ball_controller-behavioral File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/ball_controller.vhd Line: 29
-    Info (12023): Found entity 1: ball_controller File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/ball_controller.vhd Line: 5
+    Info (12022): Found design unit 1: ball_controller-behavioral File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 29
+    Info (12023): Found entity 1: ball_controller File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file output_files/div_gen.vhd
-    Info (12022): Found design unit 1: div_gen-div_gen_arch File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/div_gen.vhd Line: 14
-    Info (12023): Found entity 1: div_gen File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/div_gen.vhd Line: 6
+    Info (12022): Found design unit 1: div_gen-div_gen_arch File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/div_gen.vhd Line: 14
+    Info (12023): Found entity 1: div_gen File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/div_gen.vhd Line: 6
 Info (12021): Found 4 design units, including 2 entities, in source file paddlepos.vhd
-    Info (12022): Found design unit 1: PaddlePos_lpm_constant_m29-RTL File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/PaddlePos.vhd Line: 50
-    Info (12022): Found design unit 2: paddlepos-RTL File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/PaddlePos.vhd Line: 71
-    Info (12023): Found entity 1: PaddlePos_lpm_constant_m29 File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/PaddlePos.vhd Line: 43
-    Info (12023): Found entity 2: PaddlePos File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/PaddlePos.vhd Line: 63
+    Info (12022): Found design unit 1: PaddlePos_lpm_constant_m29-RTL File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/PaddlePos.vhd Line: 50
+    Info (12022): Found design unit 2: paddlepos-RTL File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/PaddlePos.vhd Line: 71
+    Info (12023): Found entity 1: PaddlePos_lpm_constant_m29 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/PaddlePos.vhd Line: 43
+    Info (12023): Found entity 2: PaddlePos File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/PaddlePos.vhd Line: 63
 Info (12021): Found 2 design units, including 1 entities, in source file gravity_value.vhd
-    Info (12022): Found design unit 1: gravity_value-SYN File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/gravity_value.vhd Line: 50
-    Info (12023): Found entity 1: gravity_value File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/gravity_value.vhd Line: 42
+    Info (12022): Found design unit 1: gravity_value-SYN File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/gravity_value.vhd Line: 50
+    Info (12023): Found entity 1: gravity_value File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/gravity_value.vhd Line: 42
 Info (12021): Found 2 design units, including 1 entities, in source file score_display.vhd
-    Info (12022): Found design unit 1: score_display-score_display_arch File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/score_display.vhd Line: 17
-    Info (12023): Found entity 1: score_display File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/score_display.vhd Line: 6
+    Info (12022): Found design unit 1: score_display-score_display_arch File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/score_display.vhd Line: 17
+    Info (12023): Found entity 1: score_display File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/score_display.vhd Line: 6
 Info (12021): Found 2 design units, including 2 entities, in source file const0.v
-    Info (12023): Found entity 1: Const0_lpm_constant_r09 File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const0.v Line: 46
-    Info (12023): Found entity 2: Const0 File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const0.v Line: 61
+    Info (12023): Found entity 1: Const0_lpm_constant_r09 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const0.v Line: 46
+    Info (12023): Found entity 2: Const0 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const0.v Line: 61
 Info (12021): Found 4 design units, including 2 entities, in source file const420.vhd
-    Info (12022): Found design unit 1: Const420_lpm_constant_h29-RTL File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd Line: 50
-    Info (12022): Found design unit 2: const420-RTL File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd Line: 71
-    Info (12023): Found entity 1: Const420_lpm_constant_h29 File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd Line: 43
-    Info (12023): Found entity 2: Const420 File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd Line: 63
+    Info (12022): Found design unit 1: Const420_lpm_constant_h29-RTL File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const420.vhd Line: 50
+    Info (12022): Found design unit 2: const420-RTL File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const420.vhd Line: 71
+    Info (12023): Found entity 1: Const420_lpm_constant_h29 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const420.vhd Line: 43
+    Info (12023): Found entity 2: Const420 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/Const420.vhd Line: 63
+Info (12021): Found 2 design units, including 1 entities, in source file paddle_controller.vhd
+    Info (12022): Found design unit 1: paddle_controller-rtl File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/paddle_controller.vhd Line: 36
+    Info (12023): Found entity 1: paddle_controller File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/paddle_controller.vhd Line: 15
 Info (12127): Elaborating entity "vga1" for the top level hierarchy
+Warning (275089): Not all bits in bus "GPIO[15..0]" are used
+Warning (275080): Converted elements in bus name "GPIO" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "GPIO[1]" to "GPIO1"
+    Warning (275081): Converted element name(s) from "GPIO[0]" to "GPIO0"
+    Warning (275081): Converted element name(s) from "GPIO[15]" to "GPIO15"
+    Warning (275081): Converted element name(s) from "GPIO[14]" to "GPIO14"
 Warning (275002): No superset bus at connection
 Info (12128): Elaborating entity "VGA_drvr" for hierarchy "VGA_drvr:inst"
 Info (12128): Elaborating entity "pll_25MHz" for hierarchy "pll_25MHz:inst1"
-Info (12128): Elaborating entity "altpll" for hierarchy "pll_25MHz:inst1|altpll:altpll_component" File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd Line: 140
-Info (12130): Elaborated megafunction instantiation "pll_25MHz:inst1|altpll:altpll_component" File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd Line: 140
-Info (12133): Instantiated megafunction "pll_25MHz:inst1|altpll:altpll_component" with the following parameter: File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/pll_25MHz.vhd Line: 140
+Info (12128): Elaborating entity "altpll" for hierarchy "pll_25MHz:inst1|altpll:altpll_component" File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd Line: 140
+Info (12130): Elaborated megafunction instantiation "pll_25MHz:inst1|altpll:altpll_component" File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd Line: 140
+Info (12133): Instantiated megafunction "pll_25MHz:inst1|altpll:altpll_component" with the following parameter: File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/pll_25MHz.vhd Line: 140
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "2"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -955,21 +1014,18 @@ Info (12133): Instantiated megafunction "pll_25MHz:inst1|altpll:altpll_component
     Info (12134): Parameter "self_reset_on_loss_lock" = "OFF"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_25mhz_altpll.v
-    Info (12023): Found entity 1: pll_25MHz_altpll File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/db/pll_25mhz_altpll.v Line: 30
+    Info (12023): Found entity 1: pll_25MHz_altpll File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/db/pll_25mhz_altpll.v Line: 30
 Info (12128): Elaborating entity "pll_25MHz_altpll" for hierarchy "pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
 Info (12128): Elaborating entity "pixel_mapper" for hierarchy "pixel_mapper:inst7"
 Info (12128): Elaborating entity "ball_controller" for hierarchy "ball_controller:inst6"
 Info (12128): Elaborating entity "div_gen" for hierarchy "div_gen:inst9"
-Info (12128): Elaborating entity "Const0" for hierarchy "Const0:inst5"
-Info (12128): Elaborating entity "Const0_lpm_constant_r09" for hierarchy "Const0:inst5|Const0_lpm_constant_r09:Const0_lpm_constant_r09_component" File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const0.v Line: 70
-Info (12128): Elaborating entity "Const420" for hierarchy "Const420:inst3"
-Info (12128): Elaborating entity "Const420_lpm_constant_h29" for hierarchy "Const420:inst3|Const420_lpm_constant_h29:Const420_lpm_constant_h29_component" File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/Const420.vhd Line: 86
+Info (12128): Elaborating entity "paddle_controller" for hierarchy "paddle_controller:inst5"
 Info (12128): Elaborating entity "score_display" for hierarchy "score_display:inst13"
 Warning (12125): Using design file borda.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: borda-borda File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/borda.vhd Line: 18
-    Info (12023): Found entity 1: borda File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/borda.vhd Line: 9
+    Info (12022): Found design unit 1: borda-borda File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/borda.vhd Line: 18
+    Info (12023): Found entity 1: borda File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/borda.vhd Line: 9
 Info (12128): Elaborating entity "borda" for hierarchy "borda:inst2"
-Info (13000): Registers with preset signals will power-up high File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/ball_controller.vhd Line: 70
+Info (13000): Registers with preset signals will power-up high File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 70
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX1[6]" is stuck at GND
@@ -1186,15 +1242,15 @@ Warning (20013): Ignored 209 assignments for entity "DE10_LITE_Default" -- entit
     Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ENABLE_STRICT_PRESERVATION OFF -entity DE10_LITE_Default -section_id Top was ignored
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 667 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 5 input pins
+Info (21057): Implemented 866 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
     Info (21059): Implemented 30 output pins
-    Info (21061): Implemented 631 logic cells
+    Info (21061): Implemented 826 logic cells
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 234 warnings
-    Info: Peak virtual memory: 4805 megabytes
-    Info: Processing ended: Tue Dec 02 17:47:43 2025
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:24
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 240 warnings
+    Info: Peak virtual memory: 4802 megabytes
+    Info: Processing ended: Tue Dec 02 19:44:38 2025
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:47
 
 

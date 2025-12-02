@@ -1,5 +1,5 @@
 Fitter report for vga1
-Tue Dec 02 17:47:53 2025
+Tue Dec 02 19:45:01 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -70,18 +70,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 02 17:47:53 2025       ;
+; Fitter Status                      ; Successful - Tue Dec 02 19:45:01 2025       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga1                                        ;
 ; Top-level Entity Name              ; vga1                                        ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 631 / 49,760 ( 1 % )                        ;
-;     Total combinational functions  ; 630 / 49,760 ( 1 % )                        ;
-;     Dedicated logic registers      ; 122 / 49,760 ( < 1 % )                      ;
-; Total registers                    ; 122                                         ;
-; Total pins                         ; 35 / 360 ( 10 % )                           ;
+; Total logic elements               ; 832 / 49,760 ( 2 % )                        ;
+;     Total combinational functions  ; 825 / 49,760 ( 2 % )                        ;
+;     Dedicated logic registers      ; 160 / 49,760 ( < 1 % )                      ;
+; Total registers                    ; 160                                         ;
+; Total pins                         ; 39 / 360 ( 11 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
@@ -156,12 +156,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.07        ;
+; Average used               ; 1.06        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   6.8%      ;
+;     Processor 2            ;   6.0%      ;
 +----------------------------+-------------+
 
 
@@ -324,19 +324,19 @@ refer to the applicable agreement for further details.
 +----------+----------------+--------------+-----------------+---------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------+
-; Incremental Compilation Preservation Summary                                                     ;
-+---------------------+--------------------+----------------------------+--------------------------+
-; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
-+---------------------+--------------------+----------------------------+--------------------------+
-; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 844 ) ; 0.00 % ( 0 / 844 )         ; 0.00 % ( 0 / 844 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 844 ) ; 0.00 % ( 0 / 844 )         ; 0.00 % ( 0 / 844 )       ;
-;                     ;                    ;                            ;                          ;
-; Routing (by net)    ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
-;     -- Achieved     ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
-+---------------------+--------------------+----------------------------+--------------------------+
++---------------------------------------------------------------------------------------------------+
+; Incremental Compilation Preservation Summary                                                      ;
++---------------------+---------------------+----------------------------+--------------------------+
+; Type                ; Total [A + B]       ; From Design Partitions [A] ; From Rapid Recompile [B] ;
++---------------------+---------------------+----------------------------+--------------------------+
+; Placement (by node) ;                     ;                            ;                          ;
+;     -- Requested    ; 0.00 % ( 0 / 1086 ) ; 0.00 % ( 0 / 1086 )        ; 0.00 % ( 0 / 1086 )      ;
+;     -- Achieved     ; 0.00 % ( 0 / 1086 ) ; 0.00 % ( 0 / 1086 )        ; 0.00 % ( 0 / 1086 )      ;
+;                     ;                     ;                            ;                          ;
+; Routing (by net)    ;                     ;                            ;                          ;
+;     -- Requested    ; 0.00 % ( 0 / 0 )    ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
+;     -- Achieved     ; 0.00 % ( 0 / 0 )    ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
++---------------------+---------------------+----------------------------+--------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -354,7 +354,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 826 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 1068 )   ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 18 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -362,7 +362,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/vga1.pin.
+The pin-out file can be found in C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/vga1.pin.
 
 
 +----------------------------------------------------------------------+
@@ -370,29 +370,29 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 631 / 49,760 ( 1 % )   ;
-;     -- Combinational with no register       ; 509                    ;
-;     -- Register only                        ; 1                      ;
-;     -- Combinational with a register        ; 121                    ;
+; Total logic elements                        ; 832 / 49,760 ( 2 % )   ;
+;     -- Combinational with no register       ; 672                    ;
+;     -- Register only                        ; 7                      ;
+;     -- Combinational with a register        ; 153                    ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 153                    ;
-;     -- 3 input functions                    ; 215                    ;
-;     -- <=2 input functions                  ; 262                    ;
-;     -- Register only                        ; 1                      ;
+;     -- 4 input functions                    ; 191                    ;
+;     -- 3 input functions                    ; 302                    ;
+;     -- <=2 input functions                  ; 332                    ;
+;     -- Register only                        ; 7                      ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 287                    ;
-;     -- arithmetic mode                      ; 343                    ;
+;     -- normal mode                          ; 362                    ;
+;     -- arithmetic mode                      ; 463                    ;
 ;                                             ;                        ;
-; Total registers*                            ; 122 / 51,509 ( < 1 % ) ;
-;     -- Dedicated logic registers            ; 122 / 49,760 ( < 1 % ) ;
+; Total registers*                            ; 160 / 51,509 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 160 / 49,760 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 1,749 ( 0 % )      ;
 ;                                             ;                        ;
-; Total LABs:  partially or completely used   ; 48 / 3,110 ( 2 % )     ;
+; Total LABs:  partially or completely used   ; 64 / 3,110 ( 2 % )     ;
 ; Virtual pins                                ; 0                      ;
-; I/O pins                                    ; 35 / 360 ( 10 % )      ;
-;     -- Clock pins                           ; 1 / 8 ( 13 % )         ;
+; I/O pins                                    ; 39 / 360 ( 11 % )      ;
+;     -- Clock pins                           ; 2 / 8 ( 25 % )         ;
 ;     -- Dedicated input pins                 ; 1 / 1 ( 100 % )        ;
 ;                                             ;                        ;
 ; M9Ks                                        ; 0 / 182 ( 0 % )        ;
@@ -402,19 +402,19 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ; Total block memory implementation bits      ; 0 / 1,677,312 ( 0 % )  ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 288 ( 0 % )        ;
 ; PLLs                                        ; 1 / 4 ( 25 % )         ;
-; Global signals                              ; 2                      ;
-;     -- Global clocks                        ; 2 / 20 ( 10 % )        ;
+; Global signals                              ; 3                      ;
+;     -- Global clocks                        ; 3 / 20 ( 15 % )        ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )          ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
 ; Remote update blocks                        ; 0 / 1 ( 0 % )          ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )          ;
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )          ;
-; Average interconnect usage (total/H/V)      ; 0.3% / 0.3% / 0.3%     ;
-; Peak interconnect usage (total/H/V)         ; 6.0% / 5.3% / 7.0%     ;
-; Maximum fan-out                             ; 122                    ;
-; Highest non-global fan-out                  ; 122                    ;
-; Total fan-out                               ; 2368                   ;
-; Average fan-out                             ; 2.80                   ;
+; Average interconnect usage (total/H/V)      ; 0.5% / 0.5% / 0.5%     ;
+; Peak interconnect usage (total/H/V)         ; 11.0% / 10.4% / 11.8%  ;
+; Maximum fan-out                             ; 162                    ;
+; Highest non-global fan-out                  ; 162                    ;
+; Total fan-out                               ; 3026                   ;
+; Average fan-out                             ; 2.77                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -427,34 +427,34 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 631 / 49760 ( 1 % )   ; 0 / 49760 ( 0 % )              ;
-;     -- Combinational with no register       ; 509                   ; 0                              ;
-;     -- Register only                        ; 1                     ; 0                              ;
-;     -- Combinational with a register        ; 121                   ; 0                              ;
+; Total logic elements                        ; 832 / 49760 ( 2 % )   ; 0 / 49760 ( 0 % )              ;
+;     -- Combinational with no register       ; 672                   ; 0                              ;
+;     -- Register only                        ; 7                     ; 0                              ;
+;     -- Combinational with a register        ; 153                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
-;     -- 4 input functions                    ; 153                   ; 0                              ;
-;     -- 3 input functions                    ; 215                   ; 0                              ;
-;     -- <=2 input functions                  ; 262                   ; 0                              ;
-;     -- Register only                        ; 1                     ; 0                              ;
+;     -- 4 input functions                    ; 191                   ; 0                              ;
+;     -- 3 input functions                    ; 302                   ; 0                              ;
+;     -- <=2 input functions                  ; 332                   ; 0                              ;
+;     -- Register only                        ; 7                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
-;     -- normal mode                          ; 287                   ; 0                              ;
-;     -- arithmetic mode                      ; 343                   ; 0                              ;
+;     -- normal mode                          ; 362                   ; 0                              ;
+;     -- arithmetic mode                      ; 463                   ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total registers                             ; 122                   ; 0                              ;
-;     -- Dedicated logic registers            ; 122 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
+; Total registers                             ; 160                   ; 0                              ;
+;     -- Dedicated logic registers            ; 160 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total LABs:  partially or completely used   ; 48 / 3110 ( 2 % )     ; 0 / 3110 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 64 / 3110 ( 2 % )     ; 0 / 3110 ( 0 % )               ;
 ;                                             ;                       ;                                ;
 ; Virtual pins                                ; 0                     ; 0                              ;
-; I/O pins                                    ; 35                    ; 0                              ;
+; I/O pins                                    ; 39                    ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 288 ( 0 % )       ; 0 / 288 ( 0 % )                ;
 ; Total memory bits                           ; 0                     ; 0                              ;
 ; Total RAM block bits                        ; 0                     ; 0                              ;
 ; PLL                                         ; 0 / 4 ( 0 % )         ; 1 / 4 ( 25 % )                 ;
-; Clock control block                         ; 1 / 24 ( 4 % )        ; 1 / 24 ( 4 % )                 ;
+; Clock control block                         ; 2 / 24 ( 8 % )        ; 1 / 24 ( 4 % )                 ;
 ; User Flash Memory                           ; 1 / 1 ( 100 % )       ; 0 / 1 ( 0 % )                  ;
 ; Analog-to-Digital Converter                 ; 2 / 2 ( 100 % )       ; 0 / 2 ( 0 % )                  ;
 ;                                             ;                       ;                                ;
@@ -465,15 +465,15 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 2372                  ; 32                             ;
-;     -- Registered Connections               ; 585                   ; 0                              ;
+;     -- Total Connections                    ; 3030                  ; 32                             ;
+;     -- Registered Connections               ; 815                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 0                     ; 22                             ;
 ;     -- hard_block:auto_generated_inst       ; 22                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Partition Interface                         ;                       ;                                ;
-;     -- Input Ports                          ; 5                     ; 1                              ;
+;     -- Input Ports                          ; 9                     ; 1                              ;
 ;     -- Output Ports                         ; 30                    ; 1                              ;
 ;     -- Bidir Ports                          ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
@@ -498,8 +498,12 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 +---------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name          ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +---------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
+; GPIO0         ; E11   ; 8        ; 36           ; 39           ; 14           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
+; GPIO1         ; A8    ; 7        ; 46           ; 54           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
+; GPIO14        ; E10   ; 8        ; 36           ; 39           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
+; GPIO15        ; B10   ; 7        ; 46           ; 54           ; 7            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
 ; MAX10_CLK1_50 ; P11   ; 3        ; 34           ; 0            ; 28           ; 102                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
-; SW[0]         ; C10   ; 7        ; 51           ; 54           ; 28           ; 122                   ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; SW[0]         ; C10   ; 7        ; 51           ; 54           ; 28           ; 162                   ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 ; SW[1]         ; C11   ; 7        ; 51           ; 54           ; 21           ; 5                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 ; SW[2]         ; D12   ; 7        ; 51           ; 54           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 ; SW[3]         ; C12   ; 7        ; 54           ; 54           ; 28           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
@@ -572,8 +576,8 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ; 4        ; 0 / 48 ( 0 % )   ; 2.5V          ; --           ;
 ; 5        ; 0 / 40 ( 0 % )   ; 2.5V          ; --           ;
 ; 6        ; 5 / 60 ( 8 % )   ; 2.5V          ; --           ;
-; 7        ; 14 / 52 ( 27 % ) ; 2.5V          ; --           ;
-; 8        ; 5 / 36 ( 14 % )  ; 2.5V          ; --           ;
+; 7        ; 16 / 52 ( 31 % ) ; 2.5V          ; --           ;
+; 8        ; 7 / 36 ( 19 % )  ; 2.5V          ; --           ;
 +----------+------------------+---------------+--------------+
 
 
@@ -589,7 +593,7 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ; A5       ; 473        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A6       ; 471        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A7       ; 445        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; A8       ; 447        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; A8       ; 447        ; 7        ; GPIO1                                          ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A9       ; 449        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A10      ; 439        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A11      ; 437        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -657,7 +661,7 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ; B7       ; 469        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; B8       ; 451        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; B9       ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
-; B10      ; 448        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; B10      ; 448        ; 7        ; GPIO15                                         ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B11      ; 443        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; B12      ; 441        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; B13      ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
@@ -723,8 +727,8 @@ The pin-out file can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/o
 ; E7       ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
 ; E8       ; 488        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; E9       ; 478        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; E10      ; 466        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; E11      ; 464        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; E10      ; 466        ; 8        ; GPIO14                                         ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
+; E11      ; 464        ; 8        ; GPIO0                                          ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E12      ; 429        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; E13      ; 430        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; E14      ; 406        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -1160,25 +1164,34 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; SW[1]         ; Incomplete set of assignments ;
 ; SW[3]         ; Incomplete set of assignments ;
 ; SW[2]         ; Incomplete set of assignments ;
+; GPIO15        ; Incomplete set of assignments ;
+; GPIO14        ; Incomplete set of assignments ;
+; GPIO1         ; Incomplete set of assignments ;
+; GPIO0         ; Incomplete set of assignments ;
 ; o_vid_display ; Missing location assignment   ;
+; GPIO15        ; Missing location assignment   ;
+; GPIO14        ; Missing location assignment   ;
+; GPIO1         ; Missing location assignment   ;
+; GPIO0         ; Missing location assignment   ;
 +---------------+-------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                  ;
-+--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
-; Compilation Hierarchy Node                 ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                                                           ; Entity Name      ; Library Name ;
-+--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
-; |vga1                                      ; 631 (1)     ; 122 (0)                   ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 35   ; 0            ; 509 (1)      ; 1 (0)             ; 121 (0)          ; 0          ; |vga1                                                                         ; vga1             ; work         ;
-;    |VGA_drvr:inst|                         ; 85 (85)     ; 21 (21)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 64 (64)      ; 0 (0)             ; 21 (21)          ; 0          ; |vga1|VGA_drvr:inst                                                           ; VGA_drvr         ; work         ;
-;    |ball_controller:inst6|                 ; 428 (428)   ; 81 (81)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 347 (347)    ; 1 (1)             ; 80 (80)          ; 0          ; |vga1|ball_controller:inst6                                                   ; ball_controller  ; work         ;
-;    |div_gen:inst9|                         ; 26 (26)     ; 20 (20)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 20 (20)          ; 0          ; |vga1|div_gen:inst9                                                           ; div_gen          ; work         ;
-;    |pixel_mapper:inst7|                    ; 80 (80)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 79 (79)      ; 0 (0)             ; 1 (1)            ; 0          ; |vga1|pixel_mapper:inst7                                                      ; pixel_mapper     ; work         ;
-;    |pll_25MHz:inst1|                       ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1                                                         ; pll_25MHz        ; work         ;
-;       |altpll:altpll_component|            ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component                                 ; altpll           ; work         ;
-;          |pll_25MHz_altpll:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated ; pll_25MHz_altpll ; work         ;
-;    |score_display:inst13|                  ; 12 (12)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 12 (12)      ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|score_display:inst13                                                    ; score_display    ; work         ;
-+--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                   ;
++--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node                 ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                                                           ; Entity Name       ; Library Name ;
++--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
+; |vga1                                      ; 832 (1)     ; 160 (0)                   ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 39   ; 0            ; 672 (1)      ; 7 (0)             ; 153 (0)          ; 0          ; |vga1                                                                         ; vga1              ; work         ;
+;    |VGA_drvr:inst|                         ; 78 (78)     ; 21 (21)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 57 (57)      ; 0 (0)             ; 21 (21)          ; 0          ; |vga1|VGA_drvr:inst                                                           ; VGA_drvr          ; work         ;
+;    |ball_controller:inst6|                 ; 479 (479)   ; 81 (81)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 398 (398)    ; 6 (6)             ; 75 (75)          ; 0          ; |vga1|ball_controller:inst6                                                   ; ball_controller   ; work         ;
+;    |div_gen:inst9|                         ; 27 (27)     ; 20 (20)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 1 (1)             ; 19 (19)          ; 0          ; |vga1|div_gen:inst9                                                           ; div_gen           ; work         ;
+;    |paddle_controller:inst5|               ; 108 (108)   ; 38 (38)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 70 (70)      ; 0 (0)             ; 38 (38)          ; 0          ; |vga1|paddle_controller:inst5                                                 ; paddle_controller ; work         ;
+;    |pixel_mapper:inst7|                    ; 129 (129)   ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 128 (128)    ; 0 (0)             ; 1 (1)            ; 0          ; |vga1|pixel_mapper:inst7                                                      ; pixel_mapper      ; work         ;
+;    |pll_25MHz:inst1|                       ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1                                                         ; pll_25MHz         ; work         ;
+;       |altpll:altpll_component|            ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component                                 ; altpll            ; work         ;
+;          |pll_25MHz_altpll:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0          ; |vga1|pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated ; pll_25MHz_altpll  ; work         ;
+;    |score_display:inst13|                  ; 12 (12)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (11)      ; 0 (0)             ; 1 (1)            ; 0          ; |vga1|score_display:inst13                                                    ; score_display     ; work         ;
++--------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1217,154 +1230,204 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; VGA_R[2]      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; VGA_R[1]      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; VGA_R[0]      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; SW[0]         ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; SW[0]         ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
 ; MAX10_CLK1_50 ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
-; SW[1]         ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
-; SW[3]         ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; SW[1]         ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; SW[3]         ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
 ; SW[2]         ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
+; GPIO15        ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; GPIO14        ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
+; GPIO1         ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; GPIO0         ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 +---------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+-----------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                        ;
-+-----------------------------------------+-------------------+---------+
-; Source Pin / Fanout                     ; Pad To Core Index ; Setting ;
-+-----------------------------------------+-------------------+---------+
-; SW[0]                                   ;                   ;         ;
-;      - VGA_drvr:inst|red[3]             ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[0]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[1]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[2]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[3]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[4]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[5]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[6]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[7]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[8]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|v_count[9]         ; 0                 ; 6       ;
-;      - ball_controller:inst6|s2[0]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s2[1]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s2[2]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s2[3]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s1[0]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s1[1]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s1[2]      ; 0                 ; 6       ;
-;      - ball_controller:inst6|s1[3]      ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[4]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[5]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[6]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[7]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[8]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[9]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[0]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[1]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[2]         ; 0                 ; 6       ;
-;      - VGA_drvr:inst|h_count[3]         ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[13]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[14]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[15]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[16]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[17]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[11]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[12]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[13]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[14]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[15]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[16]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[17]  ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[0]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[1]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[2]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[3]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[4]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[5]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[6]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[7]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[8]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[9]              ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[10]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[11]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[12]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[13]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[14]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[15]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[16]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[17]             ; 0                 ; 6       ;
-;      - div_gen:inst9|Qt[18]             ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[6]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[7]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[8]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[9]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[10]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[11]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[12]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[10]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[5]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[0]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[1]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[2]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[3]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_x[4]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[9]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[6]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[7]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[8]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[5]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[0]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[1]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[2]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[3]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|pos_y[4]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[2]   ; 0                 ; 6       ;
-;      - div_gen:inst9|temp               ; 0                 ; 6       ;
-;      - ball_controller:inst6|vsync_prev ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[6]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[5]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[4]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[3]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[2]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[1]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[0]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[17]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[16]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[15]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[14]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[13]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[12]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[11]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[10]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[9]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[8]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_x[7]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[17]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[16]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[15]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[14]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[13]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[12]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[11]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[10]  ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[9]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[8]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[7]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[6]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[5]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[4]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[3]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[1]   ; 0                 ; 6       ;
-;      - ball_controller:inst6|vel_y[0]   ; 0                 ; 6       ;
-; MAX10_CLK1_50                           ;                   ;         ;
-; SW[1]                                   ;                   ;         ;
-;      - ball_controller:inst6|vel_y[5]~2 ; 1                 ; 6       ;
-;      - ball_controller:inst6|vel_y~54   ; 1                 ; 6       ;
-;      - ball_controller:inst6|vel_y~61   ; 1                 ; 6       ;
-;      - ball_controller:inst6|vel_y~62   ; 1                 ; 6       ;
-;      - ball_controller:inst6|vel_y~64   ; 1                 ; 6       ;
-; SW[3]                                   ;                   ;         ;
-;      - ball_controller:inst6|Add0~2     ; 0                 ; 6       ;
-; SW[2]                                   ;                   ;         ;
-;      - ball_controller:inst6|Add0~0     ; 1                 ; 6       ;
-+-----------------------------------------+-------------------+---------+
++------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                               ;
++------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                            ; Pad To Core Index ; Setting ;
++------------------------------------------------+-------------------+---------+
+; SW[0]                                          ;                   ;         ;
+;      - VGA_drvr:inst|blue[0]                   ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[0]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[1]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[2]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[3]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[4]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[5]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[6]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[7]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[8]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|v_count[9]                ; 1                 ; 6       ;
+;      - ball_controller:inst6|s2[0]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s2[1]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s2[2]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s2[3]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s1[0]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s1[1]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s1[2]             ; 1                 ; 6       ;
+;      - ball_controller:inst6|s1[3]             ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y[3]       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y[5]       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y[8]       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y[3]      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y[5]      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y[8]      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_up_deb     ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_down_deb   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_up_deb    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_down_deb  ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[4]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[5]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[6]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[7]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[8]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[9]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[0]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[1]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[2]                ; 1                 ; 6       ;
+;      - VGA_drvr:inst|h_count[3]                ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[13]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[14]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[15]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[16]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[17]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[11]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[12]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[13]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[14]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[15]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[16]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[17]         ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[0]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[1]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[2]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[3]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[4]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[5]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[6]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[7]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[8]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[9]                     ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[10]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[11]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[12]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[13]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[14]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[15]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[16]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[17]                    ; 1                 ; 6       ;
+;      - div_gen:inst9|Qt[18]                    ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[6]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[7]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[8]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[9]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[10]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[11]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[12]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[10]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[5]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[0]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[1]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[2]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[3]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_x[4]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[9]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[6]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[7]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[8]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[5]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[0]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[1]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[2]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[3]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|pos_y[4]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[2]          ; 1                 ; 6       ;
+;      - div_gen:inst9|temp                      ; 1                 ; 6       ;
+;      - ball_controller:inst6|vsync_prev        ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[6]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[5]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[4]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[3]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[2]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[1]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[0]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[17]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[16]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[15]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[14]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[13]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[12]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[11]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[10]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[9]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[8]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_x[7]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[17]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[16]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[15]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[14]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[13]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[12]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[11]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[10]         ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[9]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[8]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[7]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[6]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[5]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[4]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[3]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[1]          ; 1                 ; 6       ;
+;      - ball_controller:inst6|vel_y[0]          ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y[1]~11   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~13      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~14      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~17      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~20      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~21      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_y~24      ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y[1]~13    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~14       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~15       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~18       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~21       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~22       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_y~25       ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_up_sr~0   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_up_sr~1   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_up_sr~2   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_up_sr~3   ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_down_sr~0 ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_down_sr~1 ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_down_sr~2 ; 1                 ; 6       ;
+;      - paddle_controller:inst5|right_down_sr~3 ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_up_sr~0    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_up_sr~1    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_up_sr~2    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_up_sr~3    ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_down_sr~0  ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_down_sr~1  ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_down_sr~2  ; 1                 ; 6       ;
+;      - paddle_controller:inst5|left_down_sr~3  ; 1                 ; 6       ;
+; MAX10_CLK1_50                                  ;                   ;         ;
+; SW[1]                                          ;                   ;         ;
+;      - ball_controller:inst6|vel_y[10]~2       ; 0                 ; 6       ;
+;      - ball_controller:inst6|vel_y~50          ; 0                 ; 6       ;
+;      - ball_controller:inst6|vel_y~58          ; 0                 ; 6       ;
+;      - ball_controller:inst6|vel_y~59          ; 0                 ; 6       ;
+;      - ball_controller:inst6|vel_y~61          ; 0                 ; 6       ;
+; SW[3]                                          ;                   ;         ;
+;      - ball_controller:inst6|Add0~2            ; 1                 ; 6       ;
+; SW[2]                                          ;                   ;         ;
+;      - ball_controller:inst6|Add0~0            ; 1                 ; 6       ;
+; GPIO15                                         ;                   ;         ;
+;      - paddle_controller:inst5|right_up_sr~0   ; 0                 ; 6       ;
+; GPIO14                                         ;                   ;         ;
+; GPIO1                                          ;                   ;         ;
+;      - paddle_controller:inst5|left_up_sr~0    ; 0                 ; 6       ;
+; GPIO0                                          ;                   ;         ;
++------------------------------------------------+-------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1374,116 +1437,120 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------+--------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
 ; MAX10_CLK1_50                                                                            ; PIN_P11            ; 2       ; Clock                     ; no     ; --                   ; --               ; --                        ;
 ; MAX10_CLK1_50                                                                            ; PIN_P11            ; 101     ; Clock                     ; yes    ; Global Clock         ; GCLK19           ; --                        ;
-; SW[0]                                                                                    ; PIN_C10            ; 122     ; Async. clear              ; no     ; --                   ; --               ; --                        ;
-; VGA_drvr:inst|LessThan5~2                                                                ; LCCOMB_X45_Y34_N22 ; 28      ; Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
-; ball_controller:inst6|pos_y[9]~18                                                        ; LCCOMB_X47_Y36_N28 ; 37      ; Sync. load                ; no     ; --                   ; --               ; --                        ;
-; ball_controller:inst6|process_0~0                                                        ; LCCOMB_X59_Y42_N4  ; 55      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; ball_controller:inst6|vel_x[17]~35                                                       ; LCCOMB_X47_Y36_N26 ; 18      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; ball_controller:inst6|vel_y[3]~60                                                        ; LCCOMB_X51_Y39_N22 ; 4       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; ball_controller:inst6|vel_y[7]~43                                                        ; LCCOMB_X51_Y39_N24 ; 6       ; Sync. load                ; no     ; --                   ; --               ; --                        ;
+; SW[0]                                                                                    ; PIN_C10            ; 162     ; Async. clear, Sync. clear ; no     ; --                   ; --               ; --                        ;
+; VGA_drvr:inst|LessThan5~2                                                                ; LCCOMB_X45_Y42_N2  ; 28      ; Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
+; ball_controller:inst6|pos_y[7]~56                                                        ; LCCOMB_X50_Y48_N22 ; 41      ; Sync. load                ; no     ; --                   ; --               ; --                        ;
+; ball_controller:inst6|process_0~0                                                        ; LCCOMB_X52_Y48_N24 ; 53      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; ball_controller:inst6|vel_x[17]~20                                                       ; LCCOMB_X51_Y48_N30 ; 18      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; ball_controller:inst6|vel_y[10]~9                                                        ; LCCOMB_X54_Y49_N28 ; 18      ; Sync. load                ; no     ; --                   ; --               ; --                        ;
+; ball_controller:inst6|vel_y[3]~57                                                        ; LCCOMB_X54_Y49_N10 ; 4       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; div_gen:inst9|temp                                                                       ; FF_X52_Y48_N27     ; 38      ; Clock                     ; yes    ; Global Clock         ; GCLK14           ; --                        ;
+; paddle_controller:inst5|left_y[1]~13                                                     ; LCCOMB_X47_Y47_N14 ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; paddle_controller:inst5|right_y[1]~11                                                    ; LCCOMB_X49_Y45_N2  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
 ; pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] ; PLL_1              ; 21      ; Clock                     ; yes    ; Global Clock         ; GCLK18           ; --                        ;
 +------------------------------------------------------------------------------------------+--------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                                                                                                ;
-+------------------------------------------------------------------------------------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name                                                                                     ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+------------------------------------------------------------------------------------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; MAX10_CLK1_50                                                                            ; PIN_P11  ; 101     ; 0                                    ; Global Clock         ; GCLK19           ; --                        ;
-; pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] ; PLL_1    ; 21      ; 0                                    ; Global Clock         ; GCLK18           ; --                        ;
-+------------------------------------------------------------------------------------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                                                                                                      ;
++------------------------------------------------------------------------------------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name                                                                                     ; Location       ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------------------------------------------------------------------------------------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; MAX10_CLK1_50                                                                            ; PIN_P11        ; 101     ; 0                                    ; Global Clock         ; GCLK19           ; --                        ;
+; div_gen:inst9|temp                                                                       ; FF_X52_Y48_N27 ; 38      ; 0                                    ; Global Clock         ; GCLK14           ; --                        ;
+; pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] ; PLL_1          ; 21      ; 1                                    ; Global Clock         ; GCLK18           ; --                        ;
++------------------------------------------------------------------------------------------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
-+-------------------------------------------------+
-; Routing Usage Summary                           ;
-+-----------------------+-------------------------+
-; Routing Resource Type ; Usage                   ;
-+-----------------------+-------------------------+
-; Block interconnects   ; 762 / 148,641 ( < 1 % ) ;
-; C16 interconnects     ; 22 / 5,382 ( < 1 % )    ;
-; C4 interconnects      ; 304 / 106,704 ( < 1 % ) ;
-; Direct links          ; 196 / 148,641 ( < 1 % ) ;
-; Global clocks         ; 2 / 20 ( 10 % )         ;
-; Local interconnects   ; 255 / 49,760 ( < 1 % )  ;
-; NSLEEPs               ; 0 / 500 ( 0 % )         ;
-; R24 interconnects     ; 21 / 5,406 ( < 1 % )    ;
-; R4 interconnects      ; 340 / 147,764 ( < 1 % ) ;
-+-----------------------+-------------------------+
++---------------------------------------------------+
+; Routing Usage Summary                             ;
++-----------------------+---------------------------+
+; Routing Resource Type ; Usage                     ;
++-----------------------+---------------------------+
+; Block interconnects   ; 1,103 / 148,641 ( < 1 % ) ;
+; C16 interconnects     ; 15 / 5,382 ( < 1 % )      ;
+; C4 interconnects      ; 550 / 106,704 ( < 1 % )   ;
+; Direct links          ; 209 / 148,641 ( < 1 % )   ;
+; Global clocks         ; 3 / 20 ( 15 % )           ;
+; Local interconnects   ; 322 / 49,760 ( < 1 % )    ;
+; NSLEEPs               ; 0 / 500 ( 0 % )           ;
+; R24 interconnects     ; 21 / 5,406 ( < 1 % )      ;
+; R4 interconnects      ; 668 / 147,764 ( < 1 % )   ;
++-----------------------+---------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 13.15) ; Number of LABs  (Total = 48) ;
+; Number of Logic Elements  (Average = 13.00) ; Number of LABs  (Total = 64) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
-; 2                                           ; 1                            ;
-; 3                                           ; 0                            ;
+; 1                                           ; 1                            ;
+; 2                                           ; 0                            ;
+; 3                                           ; 1                            ;
 ; 4                                           ; 1                            ;
 ; 5                                           ; 0                            ;
-; 6                                           ; 0                            ;
+; 6                                           ; 1                            ;
 ; 7                                           ; 0                            ;
-; 8                                           ; 1                            ;
-; 9                                           ; 3                            ;
-; 10                                          ; 2                            ;
-; 11                                          ; 2                            ;
+; 8                                           ; 2                            ;
+; 9                                           ; 6                            ;
+; 10                                          ; 4                            ;
+; 11                                          ; 5                            ;
 ; 12                                          ; 2                            ;
 ; 13                                          ; 2                            ;
-; 14                                          ; 3                            ;
-; 15                                          ; 10                           ;
-; 16                                          ; 19                           ;
+; 14                                          ; 6                            ;
+; 15                                          ; 9                            ;
+; 16                                          ; 24                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 0.92) ; Number of LABs  (Total = 48) ;
+; LAB-wide Signals  (Average = 0.97) ; Number of LABs  (Total = 64) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 16                           ;
-; 1 Clock                            ; 16                           ;
-; 1 Clock enable                     ; 8                            ;
+; 1 Async. clear                     ; 19                           ;
+; 1 Clock                            ; 26                           ;
+; 1 Clock enable                     ; 12                           ;
 ; 1 Sync. load                       ; 3                            ;
-; 2 Clock enables                    ; 1                            ;
+; 2 Clock enables                    ; 2                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 14.88) ; Number of LABs  (Total = 48) ;
+; Number of Signals Sourced  (Average = 13.83) ; Number of LABs  (Total = 64) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
+; 1                                            ; 4                            ;
 ; 2                                            ; 1                            ;
-; 3                                            ; 0                            ;
-; 4                                            ; 0                            ;
-; 5                                            ; 0                            ;
-; 6                                            ; 1                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 4                            ;
-; 9                                            ; 4                            ;
+; 3                                            ; 1                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 4                            ;
+; 6                                            ; 2                            ;
+; 7                                            ; 3                            ;
+; 8                                            ; 2                            ;
+; 9                                            ; 3                            ;
 ; 10                                           ; 1                            ;
-; 11                                           ; 1                            ;
-; 12                                           ; 2                            ;
-; 13                                           ; 0                            ;
-; 14                                           ; 3                            ;
+; 11                                           ; 3                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 2                            ;
+; 14                                           ; 2                            ;
 ; 15                                           ; 7                            ;
-; 16                                           ; 7                            ;
+; 16                                           ; 6                            ;
 ; 17                                           ; 1                            ;
-; 18                                           ; 2                            ;
-; 19                                           ; 0                            ;
-; 20                                           ; 1                            ;
-; 21                                           ; 0                            ;
-; 22                                           ; 1                            ;
-; 23                                           ; 2                            ;
-; 24                                           ; 1                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 4                            ;
+; 20                                           ; 4                            ;
+; 21                                           ; 1                            ;
+; 22                                           ; 4                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 0                            ;
 ; 25                                           ; 1                            ;
-; 26                                           ; 3                            ;
-; 27                                           ; 1                            ;
-; 28                                           ; 0                            ;
-; 29                                           ; 0                            ;
+; 26                                           ; 1                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 2                            ;
+; 29                                           ; 1                            ;
 ; 30                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
@@ -1491,64 +1558,67 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 8.50) ; Number of LABs  (Total = 48) ;
+; Number of Signals Sourced Out  (Average = 7.95) ; Number of LABs  (Total = 64) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 3                            ;
-; 2                                               ; 1                            ;
-; 3                                               ; 2                            ;
+; 1                                               ; 5                            ;
+; 2                                               ; 4                            ;
+; 3                                               ; 5                            ;
 ; 4                                               ; 2                            ;
-; 5                                               ; 4                            ;
+; 5                                               ; 1                            ;
 ; 6                                               ; 4                            ;
-; 7                                               ; 3                            ;
-; 8                                               ; 0                            ;
-; 9                                               ; 9                            ;
-; 10                                              ; 6                            ;
-; 11                                              ; 6                            ;
-; 12                                              ; 1                            ;
-; 13                                              ; 0                            ;
+; 7                                               ; 4                            ;
+; 8                                               ; 6                            ;
+; 9                                               ; 7                            ;
+; 10                                              ; 10                           ;
+; 11                                              ; 5                            ;
+; 12                                              ; 3                            ;
+; 13                                              ; 2                            ;
 ; 14                                              ; 2                            ;
-; 15                                              ; 3                            ;
-; 16                                              ; 2                            ;
+; 15                                              ; 4                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 14.38) ; Number of LABs  (Total = 48) ;
+; Number of Distinct Inputs  (Average = 16.17) ; Number of LABs  (Total = 64) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
-; 2                                            ; 1                            ;
-; 3                                            ; 2                            ;
-; 4                                            ; 3                            ;
-; 5                                            ; 1                            ;
+; 2                                            ; 3                            ;
+; 3                                            ; 1                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 0                            ;
 ; 6                                            ; 1                            ;
-; 7                                            ; 0                            ;
-; 8                                            ; 2                            ;
+; 7                                            ; 3                            ;
+; 8                                            ; 1                            ;
 ; 9                                            ; 1                            ;
-; 10                                           ; 2                            ;
-; 11                                           ; 2                            ;
-; 12                                           ; 3                            ;
-; 13                                           ; 5                            ;
-; 14                                           ; 2                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 2                            ;
-; 17                                           ; 3                            ;
-; 18                                           ; 3                            ;
+; 10                                           ; 4                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 4                            ;
+; 13                                           ; 2                            ;
+; 14                                           ; 7                            ;
+; 15                                           ; 3                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 4                            ;
+; 18                                           ; 4                            ;
 ; 19                                           ; 4                            ;
-; 20                                           ; 3                            ;
-; 21                                           ; 1                            ;
+; 20                                           ; 2                            ;
+; 21                                           ; 3                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 1                            ;
-; 24                                           ; 2                            ;
-; 25                                           ; 0                            ;
-; 26                                           ; 1                            ;
-; 27                                           ; 1                            ;
-; 28                                           ; 0                            ;
+; 23                                           ; 5                            ;
+; 24                                           ; 1                            ;
+; 25                                           ; 1                            ;
+; 26                                           ; 2                            ;
+; 27                                           ; 2                            ;
+; 28                                           ; 2                            ;
 ; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 1                            ;
+; 32                                           ; 0                            ;
+; 33                                           ; 0                            ;
+; 34                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1609,9 +1679,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 ; Pin/Rules          ; IO_000001    ; IO_000002    ; IO_000003    ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007    ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
-; Total Pass         ; 34           ; 0            ; 34           ; 0            ; 0            ; 35        ; 34           ; 0            ; 35        ; 35        ; 0            ; 30           ; 0            ; 0            ; 5            ; 0            ; 30           ; 5            ; 0            ; 0            ; 0            ; 30           ; 0            ; 0            ; 0            ; 0            ; 0            ; 35        ; 0            ; 0            ;
+; Total Pass         ; 34           ; 0            ; 34           ; 0            ; 0            ; 39        ; 34           ; 0            ; 39        ; 39        ; 0            ; 30           ; 0            ; 0            ; 9            ; 0            ; 30           ; 9            ; 0            ; 0            ; 0            ; 30           ; 0            ; 0            ; 0            ; 0            ; 0            ; 39        ; 0            ; 0            ;
 ; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 1            ; 35           ; 1            ; 35           ; 35           ; 0         ; 1            ; 35           ; 0         ; 0         ; 35           ; 5            ; 35           ; 35           ; 30           ; 35           ; 5            ; 30           ; 35           ; 35           ; 35           ; 5            ; 35           ; 35           ; 35           ; 35           ; 35           ; 0         ; 35           ; 35           ;
+; Total Inapplicable ; 5            ; 39           ; 5            ; 39           ; 39           ; 0         ; 5            ; 39           ; 0         ; 0         ; 39           ; 9            ; 39           ; 39           ; 30           ; 39           ; 9            ; 30           ; 39           ; 39           ; 39           ; 9            ; 39           ; 39           ; 39           ; 39           ; 39           ; 0         ; 39           ; 39           ;
 ; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
 ; o_vid_display      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; VGA_VS             ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
@@ -1648,6 +1718,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SW[1]              ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; SW[3]              ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; SW[2]              ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; GPIO15             ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; GPIO14             ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; GPIO1              ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; GPIO0              ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1688,23 +1762,125 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------+--------+
 
 
-+------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary              ;
-+-----------------+----------------------+-------------------+
-; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
-+-----------------+----------------------+-------------------+
++-----------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                               ;
++----------------------------------+----------------------+-------------------+
+; Source Clock(s)                  ; Destination Clock(s) ; Delay Added in ns ;
++----------------------------------+----------------------+-------------------+
+; MAX10_CLK1_50                    ; MAX10_CLK1_50        ; 50.4              ;
+; MAX10_CLK1_50,div_gen:inst9|temp ; MAX10_CLK1_50        ; 11.0              ;
++----------------------------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
 
-+-------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                           ;
-+--------------------------+--------------------------+-------------------+
-; Source Register          ; Destination Register     ; Delay Added in ns ;
-+--------------------------+--------------------------+-------------------+
-; VGA_drvr:inst|h_count[9] ; VGA_drvr:inst|h_count[9] ; 0.047             ;
-+--------------------------+--------------------------+-------------------+
-Note: This table only shows the top 1 path(s) that have the largest delay added for hold.
++-------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                             ;
++------------------------------------+----------------------------------+-------------------+
+; Source Register                    ; Destination Register             ; Delay Added in ns ;
++------------------------------------+----------------------------------+-------------------+
+; div_gen:inst9|temp                 ; ball_controller:inst6|vsync_prev ; 4.653             ;
+; ball_controller:inst6|vsync_prev   ; ball_controller:inst6|pos_x[15]  ; 2.731             ;
+; ball_controller:inst6|s1[1]        ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|s1[0]        ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|s1[3]        ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|s1[2]        ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[1]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[5]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[4]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[3]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[17]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[16]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[14]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[13]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[12]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[11]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[10]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[9]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[8]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[15]    ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[7]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[0]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[2]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_x[6]     ; ball_controller:inst6|s1[1]      ; 2.362             ;
+; ball_controller:inst6|pos_y[5]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[4]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[3]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[2]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[16]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[17]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[14]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[13]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[12]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[11]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[15]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[10]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[9]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[8]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[7]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[7] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[5] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[4] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[3] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[2] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[6] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[1] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[8] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|right_y[0] ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[1]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[6]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[7]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[5]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[4]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[3]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[2]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[6]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[1]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[8]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; paddle_controller:inst5|left_y[0]  ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|pos_y[0]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[1]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[16]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[15]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[14]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[13]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[12]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[11]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[10]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[9]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[8]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[6]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[5]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[7]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[4]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[17]    ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[2]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[3]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; ball_controller:inst6|vel_x[0]     ; ball_controller:inst6|vel_x[16]  ; 1.860             ;
+; div_gen:inst9|Qt[17]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[16]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[18]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[14]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[13]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[12]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[11]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[10]               ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[9]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[8]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[7]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[6]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[5]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[4]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[3]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[2]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[1]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[0]                ; div_gen:inst9|temp               ; 1.696             ;
+; div_gen:inst9|Qt[15]               ; div_gen:inst9|temp               ; 1.696             ;
+; ball_controller:inst6|s2[0]        ; ball_controller:inst6|s2[1]      ; 1.282             ;
+; ball_controller:inst6|s2[1]        ; ball_controller:inst6|s2[1]      ; 1.282             ;
+; ball_controller:inst6|s2[3]        ; ball_controller:inst6|s2[1]      ; 1.282             ;
++------------------------------------+----------------------------------+-------------------+
+Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1715,8 +1891,8 @@ Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors
 Info (119006): Selected device 10M50DAF484C7G for design "vga1"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|pll1" as MAX 10 PLL type File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/db/pll_25mhz_altpll.v Line: 50
-    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/db/pll_25mhz_altpll.v Line: 50
+Info (15535): Implemented PLL "pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|pll1" as MAX 10 PLL type File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/db/pll_25mhz_altpll.v Line: 50
+    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/db/pll_25mhz_altpll.v Line: 50
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -1745,23 +1921,31 @@ Info (12825): Data[1]/ASDO dual-purpose pin not reserved
 Info (12825): nCSO dual-purpose pin not reserved
 Info (12825): DCLK dual-purpose pin not reserved
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
-Critical Warning (169085): No exact pin location assignment(s) for 1 pins of 35 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Critical Warning (169085): No exact pin location assignment(s) for 5 pins of 39 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'vga1.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained generated clocks found in the design
 Info (332144): No user constrained base clocks found in the design
-Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (176353): Automatically promoted node MAX10_CLK1_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed))
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
-Info (176353): Automatically promoted node pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/db/pll_25mhz_altpll.v Line: 92
+Info (176353): Automatically promoted node pll_25MHz:inst1|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/db/pll_25mhz_altpll.v Line: 92
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
+Info (176353): Automatically promoted node div_gen:inst9|temp  File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/div_gen.vhd Line: 25
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node ball_controller:inst6|vsync_prev File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 57
+        Info (176357): Destination node ball_controller:inst6|s1[3]~2 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 70
+        Info (176357): Destination node ball_controller:inst6|process_0~0
+        Info (176357): Destination node div_gen:inst9|temp~0 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/div_gen.vhd Line: 25
+        Info (176357): Destination node ball_controller:inst6|vel_x[17]~20 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 70
+        Info (176357): Destination node ball_controller:inst6|vel_y[3]~57 File: C:/Users/Robson Junior/PongGameFPGA/PongQuartus/ball_controller.vhd Line: 70
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info (176211): Number of I/O pins in group: 1 (unused VREF, 2.5V VCCIO, 0 input, 1 output, 0 bidirectional)
+    Info (176211): Number of I/O pins in group: 5 (unused VREF, 2.5V VCCIO, 4 input, 1 output, 0 bidirectional)
         Info (176212): I/O standards used: 2.5 V.
 Info (176215): I/O bank details before I/O pin placement
     Info (176214): Statistics of I/O banks
@@ -1926,38 +2110,37 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "SW[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SW[8]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SW[9]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:04
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 5% of the available device resources in the region that extends from location X45_Y33 to location X55_Y43
+    Info (170196): Router estimated peak interconnect usage is 9% of the available device resources in the region that extends from location X45_Y44 to location X55_Y54
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-    Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.20 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.79 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Info (144001): Generated suppressed messages file C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/vga1.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/vga1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 168 warnings
-    Info: Peak virtual memory: 5384 megabytes
-    Info: Processing ended: Tue Dec 02 17:47:53 2025
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 5379 megabytes
+    Info: Processing ended: Tue Dec 02 19:45:03 2025
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Robson Junior/Downloads/VGA_EXEMPLO1/output_files/vga1.fit.smsg.
+The suppressed messages can be found in C:/Users/Robson Junior/PongGameFPGA/PongQuartus/output_files/vga1.fit.smsg.
 
 
