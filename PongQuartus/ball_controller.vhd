@@ -58,8 +58,11 @@ architecture behavioral of ball_controller is
 
 begin
 
-    -- Gravidade: Switch(0-15) * 4. Ex: Switch 2 -> Valor 8 (0.12 pixel/frame)
-    gravity_val <= signed(resize(unsigned(gravity_sel), 18) sll 4); 
+    with gravity_sel select
+        gravity_val <= to_signed(0, 18)  when "00",
+                       to_signed(3, 18)  when "01",
+                       to_signed(6, 18)  when "10",
+                       to_signed(12, 18) when others;
 
     process(clk, reset)
         -- Variáveis temporárias para facilitar a detecção de colisão
@@ -97,14 +100,16 @@ begin
 
                 -- COLISION TOP (Y=0)
                 if (b_top <= 0) and (vel_y < 0) then
-                    -- pos_y <= (others => '0');
                     vel_y <= abs(vel_y);
+                    if elasticity_sel = '1' then
+                        vel_y <= - (vel_y - (vel_y / 4)); -- vel = 75% vel  
+                    else
+                        vel_y <= -vel_y;
+                    end if;
                 end if;
 
                 -- COLISION BOTTOM (Y=480)
                 if (b_bot >= 480) and (vel_y > 0) then
-                    -- pos_y <= SCREEN_H_FIXED - BALL_S_FIX; -- Corrige posição
-                    
                     if elasticity_sel = '1' then
                         vel_y <= - (vel_y - (vel_y / 4)); -- vel = 75% vel  
                     else
