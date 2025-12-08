@@ -1,0 +1,61 @@
+# .gitignore for Quartus / Intel FPGA projects
+# Ignore Quartus-generated directories
+/PongQuartus/output_files/
+/PongQuartus/db/
+/PongQuartus/incremental_db/
+
+# Quartus workspace and project database files
+*.qws
+*.qdb
+
+# Generated programming and compilation files
+*.sof
+*.pof
+*.rbf
+*.jic
+*.sdo
+*.rpd
+
+# Reports, synthesis/map/fit/sta outputs (often re-generated)
+*.rpt
+*.fit.rpt
+*.map.rpt
+*.sta.rpt
+*.sof.rpt
+
+# Compilation intermediate artifacts
+*.cmp
+*.map
+*.fit
+*.sta
+
+# IP / generated HDL
+ip/              # if present
+ip_core/         # optional
+
+# Simulation / tool temporary files
+/simulation/
+modelsim.ini
+work/
+simv.vcd
+vsim.wlf
+
+# Editor / OS files
+*.log
+*.tmp
+*~
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+/.vscode/
+/.idea/
+
+# Misc build artifacts
+*.hex
+*.bin
+
+# Keep source files and project files under version control:
+# .qpf, .qsf, .vhd, .v, .vhdl, .vhdl_src, .qip, .png, README.md, etc.
