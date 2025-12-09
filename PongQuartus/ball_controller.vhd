@@ -74,8 +74,8 @@ begin
             -- Resetar ball to center
             pos_x <= to_signed(320 * 64, 18);
             pos_y <= to_signed(240 * 64, 18);
-            vel_x <= to_signed(200, 18);  
-            vel_y <= to_signed(-150, 18);
+            vel_x <= to_signed(300, 18);  
+            vel_y <= to_signed(-200, 18);
             -- Resetar Placar
             s1 <= 0; s2 <= 0;
             vsync_prev <= '0';
@@ -153,13 +153,13 @@ begin
                     -- Reset ball
                     pos_x <= to_signed(320 * 64, 18);
                     pos_y <= to_signed(240 * 64, 18);
-                    vel_x <= to_signed(200, 18); -- Reinicia devagar
+                    vel_x <= to_signed(300, 18); -- Reinicia devagar
                     
                 elsif (b_right >= 640) then -- Score Player 1
                     if s1 < 9 then s1 <= s1 + 1; end if;
                     pos_x <= to_signed(320 * 64, 18);
                     pos_y <= to_signed(240 * 64, 18);
-                    vel_x <= to_signed(-200, 18);
+                    vel_x <= to_signed(-300, 18);
                 end if;
             end if;
             vsync_prev <= tick_60hz;

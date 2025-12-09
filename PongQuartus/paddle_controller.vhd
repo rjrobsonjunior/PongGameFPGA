@@ -70,7 +70,7 @@ begin
             end if;
 
             -- reset síncrono: coloca paddles na posição inicial e limpa debounce para estado 'inativo'
-            if rst = '1' then
+            if rst = '0' then
                 left_y  <= INIT_Y;
                 right_y <= INIT_Y;
                 left_up_sr    <= all_inactive_level;
